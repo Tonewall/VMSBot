@@ -22,7 +22,8 @@ export const pdfResults = ips => {
       },
       col_4: { text: "PingStatus", style: "tableHeader", alignment: "center" },
       col_5: { text: "WPS", style: "tableHeader", alignment: "center" },
-      col_6: { text: "SnapShot", style: "tableHeader", alignment: "center" }
+      col_6: { text: "SnapShot", style: "tableHeader", alignment: "center" },
+      col_7: { text: "Error", style: "tableHeader", alignment: "center" }
     }
   };
 
@@ -39,6 +40,7 @@ export const pdfResults = ips => {
       row.push(header.col_4);
       row.push(header.col_5);
       row.push(header.col_6);
+      row.push(header.col_7);
       body.push(row);
     }
   }
@@ -56,12 +58,6 @@ export const pdfResults = ips => {
         text: data.cameraWebPageStatus.toString(),
         alignment: "center"
       });
-      if (data.picStatus === true) {
-        row.push({ text: "Yes", alignment: "center" });
-      } else {
-        row.push({ text: "No", alignment: "center" });
-      }
-      body.push(row);
       //if the cameras are functioning
       if (
         data.pingStatus !== "Not Alive" &&
@@ -71,7 +67,16 @@ export const pdfResults = ips => {
       ) {
         lensCount += data.headNum;
         workingCount += 1;
+        row.push({ text: "", alignment: "center" });
+      } else {
+        row.push({ text: "X", alignment: "center"});
       }
+      if (data.picStatus === true) {
+        row.push({ text: "Yes", alignment: "center" });
+      } else {
+        row.push({ text: "No", alignment: "center" });
+      }
+      body.push(row);
     }
   }
 
