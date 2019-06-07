@@ -58,6 +58,11 @@ export const pdfResults = ips => {
         text: data.cameraWebPageStatus.toString(),
         alignment: "center"
       });
+      if (data.picStatus === true) {
+        row.push({ text: "Yes", alignment: "center" });
+      } else {
+        row.push({ text: "No", alignment: "center" });
+      }
       //if the cameras are functioning
       if (
         data.pingStatus !== "Not Alive" &&
@@ -70,11 +75,6 @@ export const pdfResults = ips => {
         row.push({ text: "", alignment: "center" });
       } else {
         row.push({ text: "X", alignment: "center"});
-      }
-      if (data.picStatus === true) {
-        row.push({ text: "Yes", alignment: "center" });
-      } else {
-        row.push({ text: "No", alignment: "center" });
       }
       body.push(row);
     }
