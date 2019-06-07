@@ -1,0 +1,28 @@
+html, body {
+    margin:0;
+    padding: 0;
+}
+
+.testComponentStyles {
+    margin-bottom:14em;
+}
+
+body {
+    background-color:#ffffff !important;
+}
+
+.blue {
+    color:blue;
+}
+
+.red {
+    color:red;
+}
+
+.green {
+    color: green;
+}
+
+.btn {
+    margin-right: 1em;
+}

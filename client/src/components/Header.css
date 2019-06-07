@@ -1,0 +1,53 @@
+/* Header.CSS */
+.banner {
+  height:90px;
+  width:100%;
+  background: url('../images/logo4.jpg') no-repeat 0 0;
+  background-color:black;
+}
+html, body {
+  margin:0;
+  padding: 0;
+}
+
+.main-nav {
+  /*margin-left:-18px; shrink menu bar*/
+  width:100%;
+  /*margin-top:-10px; shrink menu bar*/
+}
+
+
+
+.main-nav-bg {
+  background-color:#FFCC00;
+  /*height:30px; shrink menu bar*/
+}
+
+a.main-nav-link{
+  color:#000000;
+  font-weight:300;
+  border-left-color:#ffffff;
+}
+
+/* change the background color */
+.navbar-custom {
+  background-color: #FFCC00;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  background-color: #000000;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  background-color: #000000;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+
+.nav-link {color: #000000;}
+.nav-link:hover {color: #ffffff;}

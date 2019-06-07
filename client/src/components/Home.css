@@ -1,0 +1,9 @@
+html, body {
+    margin:0;
+    padding: 0;
+}
+.carouselStyle {
+    margin-top: -20px;
+    text-align:center;
+}
+

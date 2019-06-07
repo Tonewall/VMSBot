@@ -1,0 +1,9 @@
+ol.overflow {
+    background-color: floralwhite;
+    width: 210px;
+    height: 150px;
+    overflow: scroll;
+}
+
+ol.overflow{overflow:scroll; overflow-x:hidden;}
+ol.overflow{height: 120px; width: 100%;}
