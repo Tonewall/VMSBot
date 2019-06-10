@@ -1,0 +1,47 @@
+[
+    {
+        "deviceName": "CoC_Cam3",
+        "ip": "172.23.5.166",
+        "serialNumber": "ACPEPW6",
+        "macAddress": "00:04:7D:0B:99:36",
+        "modelNumber": "IM10C10",
+        "headNum": 1,
+        "type": "P"
+      },
+      {
+        "deviceName": "TEP_Cam14",
+        "ip": "172.23.6.70",
+        "serialNumber": "ADAQHT0",
+        "macAddress": "00:04:7D:12:D0:C6",
+        "modelNumber": "IM10C10",
+        "headNum": 1,
+        "type": "P"
+      },
+      {
+        "deviceName": "NAA NAW Lobby Drs",
+        "ip": "172.23.8.22",
+        "serialNumber": "ADGGTM2",
+        "macAddress": "00:04:7D:24:08:2A",
+        "modelNumber": "IM10C10",
+        "headNum": 1,
+        "type": "P"
+      },
+      {
+        "deviceName": "GTPD_McCamish_Roof_Cam41",
+        "ip": "172.23.8.200",
+        "serialNumber": "ADSCRS6",
+        "macAddress": "00:04:7D:29:8F:AE",
+        "modelNumber": "D5230",
+        "headNum": 1,
+        "type": "P"
+      },
+      {
+        "deviceName": "Glenn-Towers Ctyrd ",
+        "ip": "172.23.9.182",
+        "serialNumber": "ADYRFK2",
+        "macAddress": "00:04:7D:32:C6:A6",
+        "modelNumber": "D5220",
+        "headNum": 1,
+        "type": "P"
+      }
+]
