@@ -1,11 +1,1010 @@
 [
     {
-        "deviceName": "Stadium West Stands North",
-        "ip": "172.23.4.24",
-        "serialNumber": "111606062613",
-        "macAddress": "00:18:85:12:0B:95",
-        "modelNumber": "2.0W-H3PTZ-DP20",
+        "deviceName": "CULC 4th Flr Outside Rm 457: CULC 4th Flr Restrooms to N-End,                                                    CULC 4th Flr Cridor 476,                                                    CULC 4th Flr Outside Rm 457",
+        "ip": "172.23.12.36",
+        "serialNumber": "111805150012",
+        "macAddress": "00:18:85:20:0B:2C",
+        "modelNumber": "9W-H3-3MH-DC1",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "CULC 3rd Flr Outside Rm 357: CULC 3rd Flr Restrooms to N-End,                                                     CULC 3rd Flr Cridor 378A,                                                     CULC 3rd Flr Outside Rm 357",
+        "ip": "172.23.12.37",
+        "serialNumber": "111805150005",
+        "macAddress": "00:18:85:20:0B:25",
+        "modelNumber": "9W-H3-3MH-DC1",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Lyman Hall Main Ent Ext + Gate 3: Lyman Hall Ext Gate 3 Plaza,                                                            Lyman Hall Main Ent Ext,                                                            Lyman Hall Ext Uncle Heinie Way",
+        "ip": "172.23.12.38",
+        "serialNumber": "111805080927",
+        "macAddress": "00:18:85:1F:E7:AF",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Savant 1st Flr Stairs + W Ent",
+        "ip": "172.23.12.39",
+        "serialNumber": "111802093679",
+        "macAddress": "00:18:85:1D:F6:9F",
+        "modelNumber": "3.0C-H4A-D1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Savant 1st Flr E Ent",
+        "ip": "172.23.12.40",
+        "serialNumber": "111802211001",
+        "macAddress": "00:18:85:1E:3A:49",
+        "modelNumber": "3.0C-H4A-D1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Savant 1st Flr W Ent",
+        "ip": "172.23.12.41",
+        "serialNumber": "111803025829",
+        "macAddress": "00:18:85:1E:74:35",
+        "modelNumber": "3.0C-H4A-D1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Fifth + W. Peachtree NE Intersection",
+        "ip": "172.23.12.42",
+        "serialNumber": "111802130043",
+        "macAddress": "00:18:85:1E:0F:7B",
+        "modelNumber": "8.0-H4A-BO1-IR",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "GTPD Ferst + Atlantic Blue Light E-Phone",
+        "ip": "172.23.12.43",
+        "serialNumber": "111802268450",
+        "macAddress": "00:18:85:1E:57:62",
+        "modelNumber": "2.0C-H4PTZ-DP30",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "GTPD Howey-Mason Walkway Blue Light E-Phone",
+        "ip": "172.23.12.44",
+        "serialNumber": "111802268248",
+        "macAddress": "00:18:85:1E:56:98",
+        "modelNumber": "2.0C-H4PTZ-DP30",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "GTPD Atlantic Prom at Howey-Mason Walkway",
+        "ip": "172.23.12.45",
+        "serialNumber": "111802200167",
+        "macAddress": "00:18:85:1E:37:07",
+        "modelNumber": "2.0C-H4PTZ-DP30",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "GTPD Williams St GLC Deck Ent Blue Light E-Phone: ,                                                      GTPD Williams St GLC Deck Ent Blue Light E-Phone(1),                                                      GTPD Williams St GLC Deck Ent Blue Light E-Phone(2),                                                      GTPD Williams St GLC Deck Ent Blue Light E-Phone(3)",
+        "ip": "172.23.12.46",
+        "serialNumber": "111902060259",
+        "macAddress": "00:18:85:25:63:53",
+        "modelNumber": "9W-H3-3MH-DP1",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "711 Marietta 1st Flr Cridor 112: 711 Marietta 1st Flr Cridor 112 E Facing Rm 124,                                                       711 Marietta 1st Flr Cridor 121 N End S Facing                                                                     711 Marietta 1st Flr Cridor 112 W Facing",
+        "ip": "172.23.12.47",
+        "serialNumber": "111805242513",
+        "macAddress": "00:18:85:20:3C:01",
+        "modelNumber": "9W-H3-3MH-DC1",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "512 Means St New Cam1",
+        "ip": "172.23.12.48",
+        "serialNumber": "111601297644",
+        "macAddress": "00:18:85:10:4A:7C",
+        "modelNumber": "3.0W-H3-DC1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "512 Means St New Cam2",
+        "ip": "172.23.12.49",
+        "serialNumber": "111601263444",
+        "macAddress": "00:18:85:10:3A:14",
+        "modelNumber": "3.0W-H3-DC1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Van Leer 2nd Flr Lockers",
+        "ip": "172.23.12.50",
+        "serialNumber": "111804100536",
+        "macAddress": "00:18:85:1F:49:E8",
+        "modelNumber": "5.0L-H4A-DP1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Van Leer 1st Flr Harris Fab Lab: Van Leer 1st Flr Harris Fab Lab Ent(1),                                                        Van Leer 1st Flr Murata Electronics Lounge Ent(2),                                                        Van Leer 1st Flr E Ent and Stair(3)",
+        "ip": "172.23.12.51",
+        "serialNumber": "111803140596",
+        "macAddress": "00:18:85:1E:AD:E4",
+        "modelNumber": "9W-H3-3MH-DO1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Van Leer 2nd Flr IDC: Van Leer 2nd Flr IDC Off Area(1),                                      Van Leer 2nd Flr IDC Elev(2),                                      Van Leer 2nd Flr IDC Ent(3)",
+        "ip": "172.23.12.52",
+        "serialNumber": "111804123286",
+        "macAddress": "00:18:85:1F:54:A6",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Van Leer 3rd Flr Batts Workspace: Van Leer 3rd Flr Batts(1),                                                            Van Leer 3rd Flr Batts Elev(2),                                                            Van Leer 3rd Flr Batts SW Stair(3)",
+        "ip": "172.23.12.53",
+        "serialNumber": "111803140479",
+        "macAddress": "00:18:85:1E:AD:6F",
+        "modelNumber": "9W-H3-3MH-DO1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Van Leer 2nd Flr SW Exit and Stair",
+        "ip": "172.23.12.54",
+        "serialNumber": "111804100591",
+        "macAddress": "00:18:85:1F:4A:1F",
+        "modelNumber": "5.0L-H4A-DP1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Van Leer 2nd Flr W Ent",
+        "ip": "172.23.12.55",
+        "serialNumber": "111801151432",
+        "macAddress": "00:18:85:1D:51:98",
+        "modelNumber": "5.0L-H4A-D1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Van Leer 1st Flr SE Ent: Van Leer 1st Flr SE Stair(1),                                          Van Leer 1st Flr SE Ent Lobby(2),                                          Van Leer 1st Flr SE Ext Ent(3)",
+        "ip": "172.23.12.56",
+        "serialNumber": "111804124427",
+        "macAddress": "00:18:85:1F:59:1B",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Van Leer 3rd Flr Batts NE Stair",
+        "ip": "172.23.12.57",
+        "serialNumber": "111801118820",
+        "macAddress": "00:18:85:1D:47:64",
+        "modelNumber": "5.0L-H4A-D1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Van Leer 1st Flr Rm 105 Ext Ent",
+        "ip": "172.23.12.58",
+        "serialNumber": "111804100516",
+        "macAddress": "00:18:85:1F:49:D4",
+        "modelNumber": "5.0L-H4A-DP1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Van Leer 2nd Flr NE Stair",
+        "ip": "172.23.12.59",
+        "serialNumber": "111806116874",
+        "macAddress": "00:18:85:20:9B:2A",
+        "modelNumber": "5.0L-H4A-D1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "512 Means St New Cam 3",
+        "ip": "172.23.12.60",
+        "serialNumber": "111602018822",
+        "macAddress": "00:18:85:10:4F:16",
+        "modelNumber": "3.0W-H3-DC1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "NAA NAN 1st Flr Lobby",
+        "ip": "172.23.12.61",
+        "serialNumber": "ADBDFW0",
+        "macAddress": "00:04:7d:13:0a:b7",
+        "modelNumber": "IM10LW10-1",
+        "headNum": 1,
+        "type": "P"
+      },
+      {
+        "deviceName": "CoB Ext Ctyrd + Ent Cridor: CoB Ext Ctyrd Cridor Ent,                                                CoB Ext Ctyrd E Facing,                                                CoB Ext Ctyrd S Facing + Stairs",
+        "ip": "172.23.12.62",
+        "serialNumber": "111804112841",
+        "macAddress": "00:18:85:1F:52:E9",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Ford EST L1 Rm L1235: Ford EST L1 Rm L1235(1),                                          Ford EST L1 Rm L1235 Ent(2),                                          Ford EST L1 Rm L1235(3)",
+        "ip": "172.23.12.63",
+        "serialNumber": "111806116102",
+        "macAddress": "00:18:85:20:98:26",
+        "modelNumber": "9W-H3-3MH-DC1",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Marcus Nanotech 1st Flr W Stair",
+        "ip": "172.23.12.64",
+        "serialNumber": "111710255004",
+        "macAddress": "00:18:85:1B:B1:DC",
+        "modelNumber": "5.0L-H4A-DC1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "575 14th 1st Flr Rm 1230",
+        "ip": "172.23.12.65",
+        "serialNumber": "111806072200",
+        "macAddress": "00:18:85:20:88:E8",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "CoC Ext LL: CoC Ext LL Dock Ent,                     CoC Ext LL Parking,                     CoC Ext LL Driveway",
+        "ip": "172.23.12.66",
+        "serialNumber": "111805148014",
+        "macAddress": "00:18:85:20:03:5E",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "CoC Lower Level Cam2",
+        "ip": "172.23.12.67",
+        "serialNumber": "111710255043",
+        "macAddress": "00:18:85:1B:B2:03",
+        "modelNumber": "5.0L-H4A-DC1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 2nd Flr Rm 240",
+        "ip": "172.23.12.68",
+        "serialNumber": "111806071911",
+        "macAddress": "00:18:85:20:87:C7",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "EBB 2nd Flr Rm 2237 Ent",
+        "ip": "172.23.12.69",
+        "serialNumber": "111806072182",
+        "macAddress": "00:18:85:20:88:D6",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "EBB 2nd Flr Rm 2237 Back Aisle",
+        "ip": "172.23.12.70",
+        "serialNumber": "111805163458",
+        "macAddress": "00:18:85:20:18:A2",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Ford EST L2 Rm L2204",
+        "ip": "172.23.12.71",
+        "serialNumber": "111806072312",
+        "macAddress": "00:18:85:20:89:58",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Ford EST L1 Rm L1110",
+        "ip": "172.23.12.72",
+        "serialNumber": "111805242828",
+        "macAddress": "00:18:85:20:3D:3C",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Howey Physics 1st Flr Rm S101",
+        "ip": "172.23.12.73",
+        "serialNumber": "111806071873",
+        "macAddress": "00:18:85:20:87:A1",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Howey Physics Gnd Flr Rm S021",
+        "ip": "172.23.12.74",
+        "serialNumber": "111805298236",
+        "macAddress": "00:18:85:20:52:5C",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "MSE 3rd Flr Rm 3224",
+        "ip": "172.23.12.75",
+        "serialNumber": "111806072079",
+        "macAddress": "00:18:85:20:88:6F",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "MSE 3rd Flr Rm 3222 Back Aisle",
+        "ip": "172.23.12.76",
+        "serialNumber": "111805298260",
+        "macAddress": "00:18:85:20:52:74",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "MSE 3rd Flr Rm 3222 Middle Aisle",
+        "ip": "172.23.12.77",
+        "serialNumber": "111806071894",
+        "macAddress": "00:18:85:20:87:B6",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Holland Power Plant Dr: Holland Power Plant Dr Southbound,                                           Holland Power Plant Dr Staircase to Uncle Heiney,                                           Holland Power Plant Dr Westbound",
+        "ip": "172.23.12.78",
+        "serialNumber": "111805081793",
+        "macAddress": "00:18:85:1F:EB:11",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Parking Curran Deck Plaza N Mid E: Parking Curran Deck Plaza Elev E Side,                                                               Parking Curran Deck Plaza NE Bike Racks(2),                                                               Parking Curran Deck Plaza N SW Facing",
+        "ip": "172.23.12.79",
+        "serialNumber": "111805081649",
+        "macAddress": "00:18:85:1F:EA:81",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Parking Curran Deck Plaza NE: Parking Curran Deck Plaza Pay Station + Parking,                                                       Parking Curran Deck Plaza NE Bike Racks(1),                                                       Parking Curran Deck Plaza West Village Bridge",
+        "ip": "172.23.12.80",
+        "serialNumber": "111805023607",
+        "macAddress": "00:18:85:1F:CB:17",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Parking Curran Deck Plaza N Mid W: Parking Curran Deck Plaza Elev W Side,                                                                 Parking Curran Deck Plaza NW,                                                                 Parking Curran Deck Plaza N Mid NE Facing,",
+        "ip": "172.23.12.81",
+        "serialNumber": "111805081823",
+        "macAddress": "00:18:85:1F:EB:2F",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "CRC Outdoor Storage: CRC Outdoor Storage Ext E Entrances ,                                       CRC Outdoor Storage Ext Gate,                                       CRC Outdoor Storage Ext W Facing",
+        "ip": "172.23.12.82",
+        "serialNumber": "111808011377",
+        "macAddress": "00:18:85:21:BE:31",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "GTPD West Village Eighth St Blue Light E-Phone",
+        "ip": "172.23.12.83",
+        "serialNumber": "111709180755",
+        "macAddress": "00:18:85:1A:DD:F3",
+        "modelNumber": "2.0C-H4PTZ-DP30",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon Gnd Flr Offices G13 thru G22",
+        "ip": "172.23.12.84",
+        "serialNumber": "111803211281",
+        "macAddress": "00:18:85:1E:D7:A1",
+        "modelNumber": "8.0-H4A-DC1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 2nd Flr Stair 245",
+        "ip": "172.23.12.85",
+        "serialNumber": "111802154600",
+        "macAddress": "00:18:85:1E:21:48",
+        "modelNumber": "8.0-H4A-D1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 3rd Flr Stair 370",
+        "ip": "172.23.12.86",
+        "serialNumber": "111806213079",
+        "macAddress": "00:18:85:20:DA:77",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon Bsmnt Pass Elev and Stair",
+        "ip": "172.23.12.87",
+        "serialNumber": "111806214805",
+        "macAddress": "00:18:85:20:E1:35",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon Gnd Flr N Ent and Rear Pass Elev",
+        "ip": "172.23.12.88",
+        "serialNumber": "111806275071",
+        "macAddress": "00:18:85:21:09:4F",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 3rd Flr Pass Elev and Stair 302",
+        "ip": "172.23.12.89",
+        "serialNumber": "111806299760",
+        "macAddress": "00:18:85:21:1B:A0",
+        "modelNumber": "3.0C-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon Bsmnt W Ent",
+        "ip": "172.23.12.90",
+        "serialNumber": "111806299731",
+        "macAddress": "00:18:85:21:1B:83",
+        "modelNumber": "3.0C-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon Gnd Flr Pass Elev and Stair",
+        "ip": "172.23.12.91",
+        "serialNumber": "111806213054",
+        "macAddress": "00:18:85:20:DA:5E",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 2nd Flr Large Waiting Area",
+        "ip": "172.23.12.92",
+        "serialNumber": "111805312565",
+        "macAddress": "00:18:85:20:63:45",
+        "modelNumber": "5.0L-H4A-D1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon Gnd Flr Offices G23 thru G54 & Stair G70 South",
+        "ip": "172.23.12.93",
+        "serialNumber": "111803069784",
+        "macAddress": "00:18:85:1E:83:A8",
+        "modelNumber": "8.0-H4A-DC1",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon Bsmnt Stair 051",
+        "ip": "172.23.12.94",
+        "serialNumber": "111806299756",
+        "macAddress": "00:18:85:21:1B:9C",
+        "modelNumber": "3.0C-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 2nd Flr Pass Elev and Stair",
+        "ip": "172.23.12.95",
+        "serialNumber": "111806214796",
+        "macAddress": "00:18:85:20:E1:2C",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 2nd Flr Stair 270",
+        "ip": "172.23.12.96",
+        "serialNumber": "111806275083",
+        "macAddress": "00:18:85:21:09:5B",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 1st Flr SE Ferst Dr Ent and Stair",
+        "ip": "172.23.12.97",
+        "serialNumber": "111806299670",
+        "macAddress": "00:18:85:21:1B:46",
+        "modelNumber": "3.0C-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 1st Flr NE Ent",
+        "ip": "172.23.12.98",
+        "serialNumber": "111806129492",
+        "macAddress": "00:18:85:20:A5:64",
+        "modelNumber": "3.0C-H4A-D1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 1st Flr Off 151 Reception",
+        "ip": "172.23.12.99",
+        "serialNumber": "111806275062",
+        "macAddress": "00:18:85:21:09:46",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 1st Flr SW Ferst Dr Ent ",
+        "ip": "172.23.12.100",
+        "serialNumber": "111805019543",
+        "macAddress": "00:18:85:1F:BB:37",
+        "modelNumber": "3.0C-H4A-D1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 1st Flr Pass Elev and Stair",
+        "ip": "172.23.12.101",
+        "serialNumber": "111806213077",
+        "macAddress": "00:18:85:20:DA:75",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 1st Flr Large Waiting Area near Off 129",
+        "ip": "172.23.12.102",
+        "serialNumber": "111806275085",
+        "macAddress": "00:18:85:21:09:5D",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 1st Flr Small Waiting Area",
+        "ip": "172.23.12.103",
+        "serialNumber": "111806299739",
+        "macAddress": "00:18:85:21:1B:8B",
+        "modelNumber": "3.0C-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 1st Flr SE Cherry St Ent",
+        "ip": "172.23.12.104",
+        "serialNumber": "111806299758",
+        "macAddress": "00:18:85:21:1B:9E",
+        "modelNumber": "3.0C-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Coon 1st Flr Hall at Stair 145",
+        "ip": "172.23.12.105",
+        "serialNumber": "111807265291",
+        "macAddress": "00:18:85:21:A6:6B",
+        "modelNumber": "8.0-H4A-D1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "CoC Lower Level Cam3",
+        "ip": "172.23.12.106",
+        "serialNumber": "111804237810",
+        "macAddress": "00:18:85:1F:8D:62",
+        "modelNumber": "3.0C-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "CoC Lower Level Cam4: CoC Lower Level Cam4(1),                                          CoC Lower Level Cam4(2),                                          CoC Lower Level Cam4(3)",
+        "ip": "172.23.12.107",
+        "serialNumber": "111805150019",
+        "macAddress": "00:18:85:20:0B:33",
+        "modelNumber": "9W-H3-3MH-DC1",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "Hinman 2nd Flr Rm 209",
+        "ip": "172.23.12.108",
+        "serialNumber": "111807100364",
+        "macAddress": "00:18:85:21:45:0C",
+        "modelNumber": "5.0L-H4A-DP1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Howey Physics Gnd Flr Rm S04",
+        "ip": "172.23.12.109",
+        "serialNumber": "111806072159",
+        "macAddress": "00:18:85:20:88:BF",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Skiles 1st Flr Rm 155B",
+        "ip": "172.23.12.110",
+        "serialNumber": "111805163445",
+        "macAddress": "00:18:85:20:18:95",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "MRDC 2200 Pod Cam1",
+        "ip": "172.23.12.111",
+        "serialNumber": "111712198055",
+        "macAddress": "00:18:85:1C:F6:47",
+        "modelNumber": "12W-H3-4MH-DP1-B",
         "headNum": 4,
         "type": "A"
-    }
+      },
+      {
+        "deviceName": "MRDC 2200 Pod Cam2",
+        "ip": "172.23.12.112",
+        "serialNumber": "111806250631",
+        "macAddress": "00:18:85:20:F7:F7",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "GroseClose Rm. 118A",
+        "ip": "172.23.12.113",
+        "serialNumber": "111807182653",
+        "macAddress": "00:18:85:21:75:0D",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "MSE 3rd Flr Rm 3222 Front Aisle",
+        "ip": "172.23.12.114",
+        "serialNumber": "111806072161",
+        "macAddress": "00:18:85:20:88:C1",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "8th St Apt W Ctyrd",
+        "ip": "172.23.12.115",
+        "serialNumber": "111808243779",
+        "macAddress": "00:18:85:22:3C:C3",
+        "modelNumber": "2.0C-H4PTZ-DP30",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Cherry Emerson 3rd Flr Rm 323A",
+        "ip": "172.23.12.116",
+        "serialNumber": "111806072304",
+        "macAddress": "00:18:85:20:89:50",
+        "modelNumber": "5.0L-H4A-D1-IR-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "RBI Parking Lot Cam1",
+        "ip": "172.23.12.117",
+        "serialNumber": "111704106914",
+        "macAddress": "00:18:85:17:C1:B2",
+        "modelNumber": "12W-H3-4MH-DP1-B",
+        "headNum": 4,
+        "type": "A"
+      },
+      {
+        "deviceName": "RBI Parking Lot Cam2",
+        "ip": "172.23.12.118",
+        "serialNumber": "111704107513",
+        "macAddress": "00:18:85:17:C4:09",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "RBI Parking Lot Cam3",
+        "ip": "172.23.12.119",
+        "serialNumber": "111704106938",
+        "macAddress": "00:18:85:17:C1:CA",
+        "modelNumber": "12W-H3-4MH-DP1-B",
+        "headNum": 4,
+        "type": "A"
+      },
+      {
+        "deviceName": "RBI Parking Lot Cam4",
+        "ip": "172.23.12.120",
+        "serialNumber": "111704107503",
+        "macAddress": "00:18:85:17:C3:FF",
+        "modelNumber": "9W-H3-3MH-DP1-B",
+        "headNum": 3,
+        "type": "A"
+      },
+      {
+        "deviceName": "RBI Parking Lot Cam5",
+        "ip": "172.23.12.121",
+        "serialNumber": "111704106896",
+        "macAddress": "00:18:85:17:C1:A0",
+        "modelNumber": "12W-H3-4MH-DP1-B",
+        "headNum": 4,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 4th Flr W Stair 3",
+        "ip": "172.23.12.122",
+        "serialNumber": "111808162185",
+        "macAddress": "00:18:85:22:0F:79",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 2nd Flr Elev",
+        "ip": "172.23.12.123",
+        "serialNumber": "111808162239",
+        "macAddress": "00:18:85:22:0F:AF",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 6th Flr Grad Community Breakroom",
+        "ip": "172.23.12.124",
+        "serialNumber": "111804205867",
+        "macAddress": "00:18:85:1F:85:CB",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 4th Flr W Off Area",
+        "ip": "172.23.12.125",
+        "serialNumber": "111808162265",
+        "macAddress": "00:18:85:22:0F:C9",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 4th Flr Elev",
+        "ip": "172.23.12.126",
+        "serialNumber": "111808162251",
+        "macAddress": "00:18:85:22:0F:BB",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 2nd Flr E Stair 5",
+        "ip": "172.23.12.127",
+        "serialNumber": "111808162223",
+        "macAddress": "00:18:85:22:0F:9F",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 4th Flr E Stair 5",
+        "ip": "172.23.12.128",
+        "serialNumber": "111808162221",
+        "macAddress": "00:18:85:22:0F:9D",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 4th Flr Staff Lounge 4151",
+        "ip": "172.23.12.129",
+        "serialNumber": "111804205819",
+        "macAddress": "00:18:85:1F:85:9B",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland Bsmnt Preservation Room B192",
+        "ip": "172.23.12.130",
+        "serialNumber": "111807171734",
+        "macAddress": "00:18:85:21:71:76",
+        "modelNumber": "5.0L-H4A-D1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 7th Flr SE Roof & Mtg Room Access",
+        "ip": "172.23.12.131",
+        "serialNumber": "111808024245",
+        "macAddress": "00:18:85:21:C9:65",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 7th Flr SE Roof",
+        "ip": "172.23.12.132",
+        "serialNumber": "111807253253",
+        "macAddress": "00:18:85:21:9E:75",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 7th Flr SW Roof",
+        "ip": "172.23.12.133",
+        "serialNumber": "111807100357",
+        "macAddress": "00:18:85:21:45:05",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 4th Flr E Stair 5 Ent",
+        "ip": "172.23.12.134",
+        "serialNumber": "111806214947",
+        "macAddress": "00:18:85:20:E1:C3",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 7th Flr Elev",
+        "ip": "172.23.12.135",
+        "serialNumber": "111808162217",
+        "macAddress": "00:18:85:22:0F:99",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland Bsmnt Mechanical Rm",
+        "ip": "172.23.12.136",
+        "serialNumber": "111807100342",
+        "macAddress": "00:18:85:21:44:F6",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 6th Floor Common Area: Crosland 6th Flr Common Area North,                                                           Crosland 6th Flr Common Area East,                                                          Crosland 6th Flr Common Area Elev,                                                           Crosland 6th Flr Common Area West",
+        "ip": "172.23.12.137",
+        "serialNumber": "111808231542",
+        "macAddress": "00:18:85:22:34:06",
+        "modelNumber": "12W-H3-4MH-DC1",
+        "headNum": 4,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland Gnd Flr SE Ent",
+        "ip": "172.23.12.138",
+        "serialNumber": "111812301256",
+        "macAddress": "00:18:85:24:CA:F8",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 5th Flr Elev",
+        "ip": "172.23.12.139",
+        "serialNumber": "111806214908",
+        "macAddress": "00:18:85:20:E1:9C",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 6th Flr E Stair 5",
+        "ip": "172.23.12.140",
+        "serialNumber": "111808011873",
+        "macAddress": "00:18:85:21:C0:21",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 6th Flr W Stair 3",
+        "ip": "172.23.12.141",
+        "serialNumber": "111806275068",
+        "macAddress": "00:18:85:21:09:4C",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 5th Flr E Stair 5 Ent",
+        "ip": "172.23.12.142",
+        "serialNumber": "111806214905",
+        "macAddress": "00:18:85:20:E1:99",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 5th Flr E Stair 5",
+        "ip": "172.23.12.143",
+        "serialNumber": "111808162171",
+        "macAddress": "00:18:85:22:0F:6B",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 6th Flr Grad Community near 6130",
+        "ip": "172.23.12.144",
+        "serialNumber": "111804206019",
+        "macAddress": "00:18:85:1F:86:63",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland Gnd Flr E Ent",
+        "ip": "172.23.12.145",
+        "serialNumber": "111808080155",
+        "macAddress": "00:18:85:21:E0:7B",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland 6th Flr Elev",
+        "ip": "172.23.12.146",
+        "serialNumber": "111808162230",
+        "macAddress": "00:18:85:22:0F:A6",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      },
+      {
+        "deviceName": "Crosland Gnd Flr E Stair 5",
+        "ip": "172.23.12.147",
+        "serialNumber": "111804205834",
+        "macAddress": "00:18:85:1F:85:AA",
+        "modelNumber": "5.0L-H4A-DC1-B",
+        "headNum": 1,
+        "type": "A"
+      }
 ]

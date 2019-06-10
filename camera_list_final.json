@@ -99,15 +99,6 @@
       "type": "P"
     },
     {
-      "deviceName": "P",
-      "ip": "172.23.4.37",
-      "serialNumber": "P",
-      "macAddress": "P",
-      "modelNumber": "P",
-      "headNum": 1,
-      "type": "P"
-    },
-    {
       "deviceName": "Stadium N Stands Tunnel: Stadium N Stands Tunnel N 1                                                                                   Stadium N Stands Tunnel Mid,                                               Stadium N Stands Tunnel S",
       "ip": "172.23.4.38",
       "serialNumber": "111704222197",
@@ -887,15 +878,6 @@
       "serialNumber": "ADLXU15",
       "macAddress": "00:04:7D:25:95:7C",
       "modelNumber": "IM10C10",
-      "headNum": 1,
-      "type": "P"
-    },
-    {
-      "deviceName": "PRL Lab Decoder",
-      "ip": "172.23.4.134",
-      "serialNumber": "00:30:48:fe:14:aa",
-      "macAddress": "P",
-      "modelNumber": "P",
       "headNum": 1,
       "type": "P"
     },
@@ -3774,28 +3756,10 @@
       "deviceName": "Parking Area 3 Pay Station Left",
       "ip": "172.23.6.13",
       "serialNumber": "111804108963",
-      "macAddress": "P",
-      "modelNumber": "P",
+      "macAddress": "00-18-85-1f-43-c3",
+      "modelNumber": "5.0L-H4A-DP1-B",
       "headNum": 1,
       "type": "A"
-    },
-    {
-      "deviceName": "P",
-      "ip": "00-18-85-1f-43-c3",
-      "serialNumber": "5.0L-H4A-DP1-B",
-      "macAddress": "P",
-      "modelNumber": "P",
-      "headNum": 1,
-      "type": "P"
-    },
-    {
-      "deviceName": "Dispatch Decoder 2 (NRE)",
-      "ip": "172.23.6.15",
-      "serialNumber": "ACRNXU1",
-      "macAddress": "00:25:90:77:45:CA",
-      "modelNumber": "P",
-      "headNum": 1,
-      "type": "P"
     },
     {
       "deviceName": "Parking_Atlantic_Drive",
@@ -6615,15 +6579,6 @@
       "type": "P"
     },
     {
-      "deviceName": "Radio_49",
-      "ip": "172.23.8.120",
-      "serialNumber": "P",
-      "macAddress": "P",
-      "modelNumber": "P",
-      "headNum": 1,
-      "type": "P"
-    },
-    {
       "deviceName": "CoB Ext Armstead St E Facing",
       "ip": "172.23.8.121",
       "serialNumber": "ADHAJM5",
@@ -8793,15 +8748,6 @@
       "type": "P"
     },
     {
-      "deviceName": "Student Center ADA Doors",
-      "ip": "172.23.9.146",
-      "serialNumber": "T51108448",
-      "macAddress": "00:04:7D:15:44:8F",
-      "modelNumber": "P",
-      "headNum": 1,
-      "type": "P"
-    },
-    {
       "deviceName": "GTSavannah PARB BkDr",
       "ip": "172.23.9.149",
       "serialNumber": "ADXUM66",
@@ -9308,7 +9254,7 @@
     {
       "deviceName": "CoC_2-Dean's Office",
       "ip": "172.23.9.212",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0F:35",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9317,7 +9263,7 @@
     {
       "deviceName": "CoC_5 - 104a Classrm",
       "ip": "172.23.9.214",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0E:D0",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9326,7 +9272,7 @@
     {
       "deviceName": "CoC_6 145 Elev",
       "ip": "172.23.9.215",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0E:8C",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9362,7 +9308,7 @@
     {
       "deviceName": "CoC_7 - 144 Corridor",
       "ip": "172.23.9.219",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0E:6A",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9389,7 +9335,7 @@
     {
       "deviceName": "CoC_12 - 129 Lounge",
       "ip": "172.23.9.223",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0F:94",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9398,7 +9344,7 @@
     {
       "deviceName": "CoC_13-107 Classroom",
       "ip": "172.23.9.224",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0F:6E",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9407,7 +9353,7 @@
     {
       "deviceName": "CoC_14-107A Classrm",
       "ip": "172.23.9.225",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0E:A8",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9416,7 +9362,7 @@
     {
       "deviceName": "CoC_15 - 124 Hallway",
       "ip": "172.23.9.226",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0E:99",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9425,7 +9371,7 @@
     {
       "deviceName": "CoC_16-130 Classroom",
       "ip": "172.23.9.227",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0E:8F",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9434,7 +9380,7 @@
     {
       "deviceName": "CoC_17-040A Elev",
       "ip": "172.23.9.228",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0E:D5",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9443,7 +9389,7 @@
     {
       "deviceName": "CoC_19 - 054 Hallway",
       "ip": "172.23.9.230",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0E:B7",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9452,7 +9398,7 @@
     {
       "deviceName": "CoC_20 - 057 Hallway",
       "ip": "172.23.9.231",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:53:0F:02",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9461,7 +9407,7 @@
     {
       "deviceName": "CoC_27 Elev Stair",
       "ip": "172.23.9.234",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:53:EC",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9470,7 +9416,7 @@
     {
       "deviceName": "Klaus_33 1stCorr1306",
       "ip": "172.23.9.236",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:03",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9479,7 +9425,7 @@
     {
       "deviceName": "Klaus_34 1stCatering",
       "ip": "172.23.9.237",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:66:D5",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9488,7 +9434,7 @@
     {
       "deviceName": "Klaus_35 1stCorr1332",
       "ip": "172.23.9.238",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:66:A7",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9497,7 +9443,7 @@
     {
       "deviceName": "Klaus_36 1stCorr1361",
       "ip": "172.23.9.239",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:66:A1",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9506,7 +9452,7 @@
     {
       "deviceName": "Klaus_37 2nd Stair 1",
       "ip": "172.23.9.240",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:66:A4",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9515,7 +9461,7 @@
     {
       "deviceName": "Klaus_38 2ndCorr2306",
       "ip": "172.23.9.241",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:58",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9524,7 +9470,7 @@
     {
       "deviceName": "Klaus_39 2ndCorr2128",
       "ip": "172.23.9.242",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:08",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9533,7 +9479,7 @@
     {
       "deviceName": "Klaus_40 2ndCor2332",
       "ip": "172.23.9.243",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:63:F8",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9542,7 +9488,7 @@
     {
       "deviceName": "Klaus_41 2nd Elev 1",
       "ip": "172.23.9.244",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:6A",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9551,7 +9497,7 @@
     {
       "deviceName": "Klaus_42 2nd Stair 2",
       "ip": "172.23.9.245",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:65:82",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9560,7 +9506,7 @@
     {
       "deviceName": "Klaus_43 2nd Elev 1",
       "ip": "172.23.9.246",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:65:63",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9569,7 +9515,7 @@
     {
       "deviceName": "Klaus_44 2ndCorr2100",
       "ip": "172.23.9.247",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:65:66",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9578,7 +9524,7 @@
     {
       "deviceName": "Klaus_45 2ndCorr2362",
       "ip": "172.23.9.248",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:65:61",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9587,7 +9533,7 @@
     {
       "deviceName": "Klaus_48 2ndCorr2447",
       "ip": "172.23.9.250",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:CC",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9641,7 +9587,7 @@
     {
       "deviceName": "Klaus_50 3rd Stair 1",
       "ip": "172.23.10.11",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:5D",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9650,7 +9596,7 @@
     {
       "deviceName": "Klaus_51 3rdCorr3306",
       "ip": "172.23.10.12",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:29",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9659,7 +9605,7 @@
     {
       "deviceName": "Klaus_52 3rdCorr3128",
       "ip": "172.23.10.13",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:4F",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9668,7 +9614,7 @@
     {
       "deviceName": "Klaus_53 3rdCorr3332",
       "ip": "172.23.10.14",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:5F",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9677,7 +9623,7 @@
     {
       "deviceName": "Klaus_54 3rd Elev 1",
       "ip": "172.23.10.15",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:D4",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9686,7 +9632,7 @@
     {
       "deviceName": "Klaus_55 3rd Elev 2",
       "ip": "172.23.10.16",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:66:23",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9695,7 +9641,7 @@
     {
       "deviceName": "Klaus_56 3rd Stair 2",
       "ip": "172.23.10.17",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:66:52",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9704,7 +9650,7 @@
     {
       "deviceName": "Klaus_57 3rdCorr3100",
       "ip": "172.23.10.18",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:65:D4",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9713,7 +9659,7 @@
     {
       "deviceName": "Klaus_58 3rdCorr3402",
       "ip": "172.23.10.19",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:D3",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -9722,7 +9668,7 @@
     {
       "deviceName": "Klaus_59 3rd Elev 3",
       "ip": "172.23.10.20",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:BE",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -10019,7 +9965,7 @@
     {
       "deviceName": "Klaus_61 3rd Stair 5",
       "ip": "172.23.10.55",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:83",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -10073,7 +10019,7 @@
     {
       "deviceName": "Klaus_80 1stStair1/1",
       "ip": "172.23.10.61",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:07",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -10082,7 +10028,7 @@
     {
       "deviceName": "Klaus_81 1stStair1/2",
       "ip": "172.23.10.62",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:09",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -10109,7 +10055,7 @@
     {
       "deviceName": "Klaus_85 1st Stair 2",
       "ip": "172.23.10.65",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:FA",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -10172,7 +10118,7 @@
     {
       "deviceName": "Klaus_89 1st Elev 1",
       "ip": "172.23.10.72",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:65:0D",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -10181,7 +10127,7 @@
     {
       "deviceName": "Klaus_90 1st Ele4Ent",
       "ip": "172.23.10.73",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:63:F7",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -10199,7 +10145,7 @@
     {
       "deviceName": "Klaus_94 1st S Ent",
       "ip": "172.23.10.75",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:65:04",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -10208,7 +10154,7 @@
     {
       "deviceName": "Klaus_95 1st Stair 5",
       "ip": "172.23.10.76",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:04",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -10217,7 +10163,7 @@
     {
       "deviceName": "Klaus_96 1st RM1305",
       "ip": "172.23.10.77",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:02",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -10280,7 +10226,7 @@
     {
       "deviceName": "Klaus_91 1st 1445A Ent",
       "ip": "172.23.10.84",
-      "serialNumber": "P",
+      "serialNumber": "",
       "macAddress": "00:80:45:55:64:05",
       "modelNumber": "WV-NF284",
       "headNum": 1,
@@ -15840,24 +15786,6 @@
       "type": "A"
     },
     {
-      "deviceName": "MiRC New Cam2",
-      "ip": "172.23.12.232",
-      "serialNumber": "P",
-      "macAddress": "P",
-      "modelNumber": "P",
-      "headNum": 1,
-      "type": "P"
-    },
-    {
-      "deviceName": "MiRC New Cam3",
-      "ip": "172.23.12.233",
-      "serialNumber": "P",
-      "macAddress": "P",
-      "modelNumber": "P",
-      "headNum": 1,
-      "type": "P"
-    },
-    {
       "deviceName": "Coda Cam1",
       "ip": "172.23.12.234",
       "serialNumber": "111811058431",
@@ -16078,7 +16006,7 @@
       "ip": "172.23.13.4",
       "serialNumber": "111812301284",
       "macAddress": "00:18:85:24:CB:14",
-      "modelNumber": "P",
+      "modelNumber": "",
       "headNum": 1,
       "type": "A"
     },
@@ -16087,7 +16015,7 @@
       "ip": "172.23.13.5",
       "serialNumber": "111902115224",
       "macAddress": "00:18:85:25:76:B8",
-      "modelNumber": "P",
+      "modelNumber": "",
       "headNum": 1,
       "type": "A"
     },
@@ -16096,7 +16024,7 @@
       "ip": "172.23.13.6",
       "serialNumber": "111902085157",
       "macAddress": "00:18:85:25:76:75",
-      "modelNumber": "P",
+      "modelNumber": "",
       "headNum": 1,
       "type": "A"
     },
@@ -16105,7 +16033,7 @@
       "ip": "172.23.13.7",
       "serialNumber": "111902115261",
       "macAddress": "00:18:85:25:76:DD",
-      "modelNumber": "P",
+      "modelNumber": "",
       "headNum": 1,
       "type": "A"
     },
@@ -16114,7 +16042,7 @@
       "ip": "172.23.13.8",
       "serialNumber": "111811141016",
       "macAddress": "00:18:85:23:DF:A8",
-      "modelNumber": "P",
+      "modelNumber": "",
       "headNum": 1,
       "type": "A"
     },
@@ -16123,7 +16051,7 @@
       "ip": "172.23.13.9",
       "serialNumber": "111902084241",
       "macAddress": "00:18:85:25:72:E1",
-      "modelNumber": "P",
+      "modelNumber": "",
       "headNum": 1,
       "type": "A"
     },
@@ -16132,7 +16060,7 @@
       "ip": "172.23.13.10",
       "serialNumber": "111902115618",
       "macAddress": "00:18:85:25:78:42",
-      "modelNumber": "P",
+      "modelNumber": "",
       "headNum": 1,
       "type": "A"
     },
@@ -16141,7 +16069,7 @@
       "ip": "172.23.13.11",
       "serialNumber": "111902115899",
       "macAddress": "00:18:85:25:79:5B",
-      "modelNumber": "P",
+      "modelNumber": "",
       "headNum": 1,
       "type": "A"
     },
