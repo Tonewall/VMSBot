@@ -67,7 +67,7 @@ export const pdfResults = ips => {
       if (
         data.pingStatus !== "Not Alive" &&
         data.picStatus !== false &&
-        data.host !== "unknown" &&
+        data.host !== "Unknown" &&
         data.cameraWebPageStatus === 200
       ) {
         lensCount += data.headNum;
