@@ -86,27 +86,24 @@ export const pdfResults = ips => {
       } else {
         row.push({ text: "No", alignment: "center" });
       }
-      //if the cameras are functioning
       if (
         data.pingStatus !== "Not Alive" &&
         data.picStatus !== false &&
-        data.host !== "Unknown" &&
-        data.cameraWebPageStatus === "200"
+        data.host !== "Unknown"
       ) {
-        lensCount += data.headNum;
-        workingCount += 1;
-        row.push({ text: "", alignment: "center" });
-      } else if (
-        data.pingStatus !== "Not Alive" &&
-        data.picStatus !== false &&
-        data.host !== "Unknown" &&
-        data.cameraWebPageStatus === 200
-      ) {
-        lensCount += data.headNum;
-        workingCount += 1;
-        row.push({ text: "", alignment: "center" });
+        if(data.cameraWebPageStatus === 200) {
+          lensCount += data.headNum;
+          workingCount += 1;
+          row.push({ text: "", alignment: "center" });
+        } else if(data.cameraWebPageStatus === "200") {
+          lensCount+= data.headNum;
+          workingCount += 1;
+          row.push({ text: "", alignment: "center" });
+        } else {
+          row.push({ text: "X", alignment: "center" });
+        }
       } else {
-        row.push({ text: "X", alignment: "center"});
+        row.push({ text: "X", alignment: "center" });
       }
       body.push(row);
     }
