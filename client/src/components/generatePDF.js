@@ -50,25 +50,38 @@ export const pdfResults = ips => {
       let data = rows[key];
       console.log(data);
       let row = [];
+
       if(data.host) {
         row.push({ text: data.host.toString(), alignment: "center" });
       } else {
         row.push({text: data.ip.toString(), alignment: "center"});
       }
+
       if(data.serialNumber) {
         row.push({ text: data.serialNumber.toString(), alignment: "center" });
       } else {
         row.push({ text: "N/A", alignment: "center" });
       }
+
       if(data.modelNumber) {
         row.push({ text: data.modelNumber.toString(), alignment: "center" });
+      } else {
+        row.push({ text: "N/A", alignment: "center" });
       }
-      row.push({ text: data.pingStatus.toString(), alignment: "center" });
-      row.push({
-        text: data.cameraWebPageStatus.toString(),
-        alignment: "center"
-      });
-      if (data.picStatus === true) {
+
+      if(data.pingStatus) {
+        row.push({ text: data.pingStatus.toString(), alignment: "center" });
+      } else {
+        row.push({ text:"N/A", alignment: "center" });
+      }
+
+      if(data.cameraWebPageStatus) {
+        row.push({ text: data.cameraWebPageStatus.toString(), alignment: "center" });
+      } else {
+        row.push({ text: "N/A", alignment: "center" });
+      }
+
+      if (data.picStatus) {
         row.push({ text: "Yes", alignment: "center" });
       } else {
         row.push({ text: "No", alignment: "center" });
