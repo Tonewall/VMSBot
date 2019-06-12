@@ -50,7 +50,11 @@ export const pdfResults = ips => {
       let data = rows[key];
       console.log(data);
       let row = [];
-      row.push({ text: data.host.toString(), alignment: "center" });
+      if(data.host) {
+        row.push({ text: data.host.toString(), alignment: "center" });
+      } else {
+        row.push({text: data.ip.toString(), alignment: "center"});
+      }
       row.push({ text: data.serialNumber.toString(), alignment: "center" });
       row.push({ text: data.modelNumber.toString(), alignment: "center" });
       row.push({ text: data.pingStatus.toString(), alignment: "center" });

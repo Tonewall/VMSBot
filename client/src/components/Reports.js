@@ -208,6 +208,8 @@ class reports extends Component {
         errors: "Search must be run before report can be generated."
       });
     } else {
+      console.log(cameras);
+      console.log("changes working");
       pdfResults(cameras);
       fetch(`/api/reports/update-last-report/`, {
         method: "POST",
