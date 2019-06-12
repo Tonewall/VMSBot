@@ -76,7 +76,13 @@ export const pdfResults = ips => {
       }
 
       if(data.cameraWebPageStatus) {
-        row.push({ text: data.cameraWebPageStatus.toString(), alignment: "center" });
+        if((data.cameraWebPageStatus === "401" ||
+            data.cameraWebPageStatus === 401) &&
+            data.picStatus === "Yes") {
+              row.push({ text: "200", alignment: "center" });
+           } else {
+             row.push({ text: data.cameraWebPageStatus.toString(), alignment: "center" });
+           }
       } else {
         row.push({ text: "N/A", alignment: "center" });
       }
