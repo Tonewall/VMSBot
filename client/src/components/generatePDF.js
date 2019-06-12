@@ -76,9 +76,8 @@ export const pdfResults = ips => {
       }
 
       if(data.cameraWebPageStatus) {
-        if((data.cameraWebPageStatus === "401" ||
-            data.cameraWebPageStatus === 401) &&
-            data.picStatus === "Yes") {
+        if(data.cameraWebPageStatus.toString() === "401" &&
+            data.picStatus) {
               row.push({ text: "200", alignment: "center" });
            } else {
              row.push({ text: data.cameraWebPageStatus.toString(), alignment: "center" });
@@ -97,16 +96,15 @@ export const pdfResults = ips => {
         data.picStatus !== false &&
         data.host !== "Unknown"
       ) {
-        if(data.cameraWebPageStatus === 200 ||
-           data.cameraWebPageStatus === "200") {
+        if(data.cameraWebPageStatus.toString() === "200") {
           lensCount += data.headNum;
           workingCount += 1;
           row.push({ text: "", alignment: "center" });
-        } else if(data.cameraWebPageStatus === 401 ||
-                  data.cameraWebPageStatus === "401") {
+        } else if(data.cameraWebPageStatus.toString() === "401" &&
+                  data.picStatus) {
           lensCount+= data.headNum;
           workingCount += 1;
-          row.push({ text: "-", alignment: "center" });
+          row.push({ text: "", alignment: "center" });
         } else {
           row.push({ text: "X", alignment: "center" });
         }
