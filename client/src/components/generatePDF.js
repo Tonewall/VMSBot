@@ -91,14 +91,16 @@ export const pdfResults = ips => {
         data.picStatus !== false &&
         data.host !== "Unknown"
       ) {
-        if(data.cameraWebPageStatus === 200) {
+        if(data.cameraWebPageStatus === 200 ||
+           data.cameraWebPageStatus === "200") {
           lensCount += data.headNum;
           workingCount += 1;
           row.push({ text: "", alignment: "center" });
-        } else if(data.cameraWebPageStatus === "200") {
+        } else if(data.cameraWebPageStatus === 401 ||
+                  data.cameraWebPageStatus === "401") {
           lensCount+= data.headNum;
           workingCount += 1;
-          row.push({ text: "", alignment: "center" });
+          row.push({ text: "-", alignment: "center" });
         } else {
           row.push({ text: "X", alignment: "center" });
         }
