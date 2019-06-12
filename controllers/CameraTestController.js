@@ -61,7 +61,8 @@ exports.index = function(req, res) {
     const mongoose = require("mongoose");
     const Camera = mongoose.model("cameras");
     console.log("cameraListOfErrors Object ", cameraListOfErrors);
-    console.log("ip is ", cameraListOfErrors[index].host.ip);
+    console.log("ip is ", cameraListOfErrors[index].host);
+    console.log("serial Number: " + cameraListOfErrors[index].serialNumber);
 
     new Camera({
       ip: cameraListOfErrors[index].host,

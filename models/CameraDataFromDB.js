@@ -8,6 +8,7 @@ const cameraSchema = new Schema({
   pingStatusDetails: String,
   cameraWebPageStatus: String,
   cameraWebPageStatusDetails: String,
+  headNum: Number,
   modelNumber: String,
   serialNumber: String,
   picStatus: Boolean,

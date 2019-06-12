@@ -137,7 +137,7 @@ class test extends Component {
         result.pingStatus === "Not Alive" ||
         result.cameraWebPageStatus !== 200 ||
         result.picStatus === false ||
-        result.host === "unknown"
+        result.host === "Unknown"
       ) {
         color = "red";
         errorCount += 1;

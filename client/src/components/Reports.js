@@ -209,7 +209,6 @@ class reports extends Component {
       });
     } else {
       console.log(cameras);
-      console.log("changes working");
       pdfResults(cameras);
       fetch(`/api/reports/update-last-report/`, {
         method: "POST",

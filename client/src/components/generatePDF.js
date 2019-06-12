@@ -55,8 +55,14 @@ export const pdfResults = ips => {
       } else {
         row.push({text: data.ip.toString(), alignment: "center"});
       }
-      row.push({ text: data.serialNumber.toString(), alignment: "center" });
-      row.push({ text: data.modelNumber.toString(), alignment: "center" });
+      if(data.serialNumber) {
+        row.push({ text: data.serialNumber.toString(), alignment: "center" });
+      } else {
+        row.push({ text: "N/A", alignment: "center" });
+      }
+      if(data.modelNumber) {
+        row.push({ text: data.modelNumber.toString(), alignment: "center" });
+      }
       row.push({ text: data.pingStatus.toString(), alignment: "center" });
       row.push({
         text: data.cameraWebPageStatus.toString(),
@@ -69,6 +75,15 @@ export const pdfResults = ips => {
       }
       //if the cameras are functioning
       if (
+        data.pingStatus !== "Not Alive" &&
+        data.picStatus !== false &&
+        data.host !== "Unknown" &&
+        data.cameraWebPageStatus === "200"
+      ) {
+        lensCount += data.headNum;
+        workingCount += 1;
+        row.push({ text: "", alignment: "center" });
+      } else if (
         data.pingStatus !== "Not Alive" &&
         data.picStatus !== false &&
         data.host !== "Unknown" &&
@@ -103,7 +118,7 @@ export const pdfResults = ips => {
     currentdate.getSeconds() +
     "\n\n";
   let numOfFunctionalCameras = `Functional Cameras in this Report: ${workingCount} \n`;
-  let numOfErrors = `Cameras with Errors this Report: ${errorCount} \n`;
+  let numOfErrors = `Cameras with Errors in this Report: ${errorCount} \n`;
   let numOfFunctionalLens = `Functional Lens in this Report: ${lensCount} \n`;
   let numOfRecords = `Cameras in this Report: ${ips.length} \n`;
 
