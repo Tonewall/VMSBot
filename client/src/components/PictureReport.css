@@ -7,8 +7,10 @@
     padding-bottom: 15px;
     padding-top: 15px;
     border-bottom: 1px solid #000;
-    white-space: nowrap;
 }
 .pictureInfos {
     page-break-inside: avoid;
+}
+.pictureInfos.deviceNameInfo {
+    page-break-inside: auto;
 }

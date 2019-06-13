@@ -29,7 +29,7 @@ class pictureReport extends Component {
             <Grid className="pictureGrid">
               <Row className="pictureInfos"key={camera._id}>
               <Col xs={6} class="pInfos">
-              <b>Device Name: </b> {camera.deviceName} <br></br>
+              <div className="deviceNameInfo"><b>Device Name: </b> {camera.deviceName} <br></br></div>
                 <b>IP Address: </b>{camera.ip} <br></br>
                 <b>Captured On: </b>{new Date(camera.date).toLocaleDateString("en-US")}
               </Col>
