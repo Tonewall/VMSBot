@@ -4,9 +4,7 @@ import "./PictureReport.css";
 class pictureReport extends Component {
     constructor(props) {
         try {
-            console.log(props);
             super(props);
-            console.dir(props);
             this.state = {
                 cameras: this.props.location.query.cameras
             }
@@ -19,7 +17,6 @@ class pictureReport extends Component {
     }
 
     getResults() {
-        console.log(this.state.cameras);
         if (this.state.cameras === null || this.state.cameras === undefined)
           return (
             <tr key="0">
@@ -48,7 +45,6 @@ class pictureReport extends Component {
             )
         }
         const { location } = this.props;
-        console.log(location.query);
         return (
         <div className="report">
             <h1 id= "report">
