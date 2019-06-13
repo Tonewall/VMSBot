@@ -6,6 +6,7 @@ import isAfter from "date-fns/is_after";
 import { pdfResults } from "./generatePDF";
 import DisplayLastReports from "./GenerateLastReport";
 import "./GenerateLastReport.css";
+import { Link } from 'react-router-dom';
 import $ from "jquery";
 import {
   Input,
@@ -131,6 +132,7 @@ class reports extends Component {
       .then(response => response.json())
       .then(data => {
         this.setState({ cameras: data });
+        console.log(this.state.cameras);
         $("#radio3").prop("checked", false);
       })
       .catch(error => console.log("error fetching data from backend", error));
@@ -315,6 +317,15 @@ class reports extends Component {
                 </ol>
                 <br />
                 <center>
+                  <Button 
+                    className="generateReport"
+                    size="md">
+                    <Link to= {{
+                      pathname:"/picture-report",
+                      query: {cameras: this.state.cameras}
+                      }}>Picture PDF</Link>
+                  </Button>
+                  
                   <Button
                     className="generateReport"
                     size="md"

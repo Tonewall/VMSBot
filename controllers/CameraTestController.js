@@ -75,7 +75,7 @@ exports.index = function(req, res) {
       modelNumber: cameraListOfErrors[index].modelNumber,
       serialNumber: cameraListOfErrors[index].serialNumber,
       picStatus: cameraListOfErrors[index].picStatus,
-      picStatusDetails: cameraListOfErrors[index].picStatusDetails,
+      picDetails: cameraListOfErrors[index].picDetails,
       cameraType: cameraListOfErrors[index].cameraType,
       date: new Date()
     })

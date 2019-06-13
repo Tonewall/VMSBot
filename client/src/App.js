@@ -7,6 +7,7 @@ import Navbar from "./components/CustomNavbar";
 import Test from "./components/Test";
 import Reports from "./components/Reports";
 import Scheduler from "./components/Scheduler";
+import PictureReport from "./components/PictureReport";
 import Home from "./components/Home";
 import "./App.css";
 
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path="/reports" component={Reports} />
             <Route path="/cameraTest" component={Test} />
             <Route path="/schedule-cameraTest" component={Scheduler} />
+            <Route name="pictureReport"path="/picture-report" component={PictureReport} />
           </div>
         </Router>
         <Footer />
