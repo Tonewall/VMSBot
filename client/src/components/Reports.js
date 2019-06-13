@@ -47,6 +47,7 @@ class reports extends Component {
     this.getLastReport = this.getLastReport.bind(this);
     this.getDBCount = this.getDBCount.bind(this);
     this.handleErrors = this.handleErrors.bind(this);
+    this.generatePictureReport = this.generatePictureReport.bind(this);
   }
 
   componentDidMount() {
@@ -210,7 +211,6 @@ class reports extends Component {
         errors: "Search must be run before report can be generated."
       });
     } else {
-      console.log(cameras);
       pdfResults(cameras);
       fetch(`/api/reports/update-last-report/`, {
         method: "POST",
@@ -224,6 +224,24 @@ class reports extends Component {
         .then(data => {
           this.refreshPage();
         })
+        .catch(error => console.log("error fetching data from backend", error));
+    }
+  }
+  generatePictureReport(cameras) {
+    if (!cameras) {
+      this.setState({
+        errors: "Search must be run before report can be generated."
+      });
+    } else {
+      fetch(`/api/reports/update-last-report/`, {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ reportType: this.state.reportType })
+      })
+        .then(response => response.json())
         .catch(error => console.log("error fetching data from backend", error));
     }
   }
@@ -326,7 +344,8 @@ class reports extends Component {
                 <center>
                   <Button 
                     className="generateReport"
-                    size="md">
+                    size="md"
+                    onClick={() => this.generatePictureReport(this.state.cameras)}>
                     <Link to= {{
                       pathname:"/picture-report",
                       query: {cameras: this.state.cameras}
