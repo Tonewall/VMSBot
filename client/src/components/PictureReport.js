@@ -3,10 +3,18 @@ import "./PictureReport.css";
 
 class pictureReport extends Component {
     constructor(props) {
-        super(props);
-        console.dir(props);
-        this.state = {
-            cameras: this.props.location.query.cameras
+        try {
+            console.log(props);
+            super(props);
+            console.dir(props);
+            this.state = {
+                cameras: this.props.location.query.cameras
+            }
+        }
+        catch(e){
+            this.state = {
+                cameras: null
+            }
         }
     }
 
@@ -32,18 +40,18 @@ class pictureReport extends Component {
         }
       }
     render() {
-        if(this.props === null || this.props === undefined) {
+        if(this.state.cameras === null) {
             return(
-                <div>
-                    No Cameras Found
-                </div>
+                <h1 className="errorMessage">
+                    No Cameras Found, Please Go Back to the Reports Page and Reload the Cameras
+                </h1>
             )
         }
         const { location } = this.props;
         console.log(location.query);
         return (
         <div className="report">
-            <h1>
+            <h1 id= "report">
                 |Camera Picture Report
             </h1>
             <table>
