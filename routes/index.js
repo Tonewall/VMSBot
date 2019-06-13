@@ -21,4 +21,5 @@ module.exports = app => {
     "/api/reports/delete-last-reports-records",
     Report_Controller.deleteLastReportsRecords
   );
+  app.get("/api/reports/delete-cameras", Report_Controller.deleteCameras);
 };

@@ -235,6 +235,13 @@ class reports extends Component {
       .catch(error => console.log("error fetching data from backend", error));
   }
 
+  deleteCameras() {
+    fetch(`/api/reports/delete-cameras/`)
+      .then(response => response.json())
+      .then(data => this.setState({ cameras: null,  dbCount: 0}))
+      .catch(error => console.log("error fetching data from backend", error));
+  }
+
   render() {
     return (
       <Container className="marginTop">
@@ -347,7 +354,11 @@ class reports extends Component {
 
               <Col md="3">
                 <p>Files in DB: {this.state.dbCount}</p>
-                <Button color="danger" size="lg">
+                <Button 
+                  color="danger" 
+                  size="lg"
+                  onClick={() => this.deleteCameras()}
+                >
                   Delete Files
                 </Button>{" "}
               </Col>

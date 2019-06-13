@@ -109,6 +109,19 @@ exports.deleteLastReportsRecords = function(req, res) {
   });
 };
 
+exports.deleteCameras = function(req, res) {
+  const mongoose = require("mongoose");
+  const cameras = mongoose.model("cameras");
+
+  cameras.remove({}).exec(err => {
+    if (err) {
+      console.log("There was an error deleting cameras");
+    } else {
+      res.send([]);
+    }
+  });
+};
+
 exports.getDBCount = function(req, res) {
   CameraModel.find({}, (err, cameras) => {
     if (err) {
