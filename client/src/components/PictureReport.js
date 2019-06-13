@@ -27,6 +27,7 @@ class pictureReport extends Component {
           const results = this.state.cameras.map(camera => (
             <tr key={camera._id}>
               <td>
+                <b>Device Name: </b> {camera.deviceName} <br></br>
                 <b>IP Address: </b>{camera.ip} <br></br>
                 <b>Captured On: </b>{new Date(camera.date).toLocaleDateString("en-US")}
               </td>

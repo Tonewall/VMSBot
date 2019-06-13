@@ -3,6 +3,7 @@ const { Schema } = mongoose;
 
 const cameraSchema = new Schema({
   ip: String,
+  deviceName: String,
   errorsExists: Boolean,
   pingStatus: String,
   pingStatusDetails: String,

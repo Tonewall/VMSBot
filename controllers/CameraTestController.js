@@ -24,6 +24,7 @@ exports.index = function(req, res) {
         console.log("Camera#: ", index, " has IP Address: ", host);
         let cameraErrors = {
           host: "",
+          deviceName: host.deviceName,
           pingStatus: "",
           pingStatusDetails: "",
           cameraWebPageStatus: "",
@@ -66,6 +67,7 @@ exports.index = function(req, res) {
 
     new Camera({
       ip: cameraListOfErrors[index].host,
+      deviceName: cameraListOfErrors[index].deviceName,
       pingStatus: cameraListOfErrors[index].pingStatus,
       pingStatusDetails: cameraListOfErrors[index].pingStatusDetails,
       cameraWebPageStatus: cameraListOfErrors[index].cameraWebPageStatus,
