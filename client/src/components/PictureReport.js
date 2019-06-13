@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Grid, Row, Col, Button } from "react-bootstrap";
 import "./PictureReport.css";
 
 class pictureReport extends Component {
@@ -25,14 +26,22 @@ class pictureReport extends Component {
           );
         else {
           const results = this.state.cameras.map(camera => (
-            <tr key={camera._id}>
-              <td>
-                <b>Device Name: </b> {camera.deviceName} <br></br>
+            <Grid className="pictureGrid">
+              <Row className="pictureInfos"key={camera._id}>
+              <Col xs={6} class="pInfos">
+              <b>Device Name: </b> {camera.deviceName} <br></br>
                 <b>IP Address: </b>{camera.ip} <br></br>
                 <b>Captured On: </b>{new Date(camera.date).toLocaleDateString("en-US")}
-              </td>
-              <td><img src={camera.picDetails} width={400} height={350} alt="Image Not Available" /></td>
-            </tr>
+              </Col>
+                
+
+              <Col xs={6}>
+                <img src={camera.picDetails} width={300} height={250} alt="Image Not Available" />
+
+              </Col>
+              </Row>
+            </Grid>
+            
           ));
           return results;
         }
@@ -45,15 +54,14 @@ class pictureReport extends Component {
                 </h1>
             )
         }
-        const { location } = this.props;
         return (
         <div className="report">
             <h1 id= "report">
                 |Camera Picture Report
             </h1>
-            <table>
-                <tbody>{this.getResults()}</tbody>
-            </table>
+            <div className="cameraReports">
+            {this.getResults()}
+            </div>
         </div>
         );
     }

@@ -1,8 +1,14 @@
-tr>td {
-    padding-bottom: 15px;
-    padding-top: 15px;
-    border-bottom: 1px solid #000
-}
+
 .errorMessage {
     padding: 10%;
+}
+
+.pictureGrid {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #000;
+    white-space: nowrap;
+}
+.pictureInfos {
+    page-break-inside: avoid;
 }
