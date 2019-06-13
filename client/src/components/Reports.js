@@ -247,17 +247,39 @@ class reports extends Component {
   }
 
   deleteLastReportRecords() {
-    fetch(`/api/reports/delete-last-reports-records/`)
-      .then(response => response.json())
-      .then(data => this.setState({ lastReports: [] }))
-      .catch(error => console.log("error fetching data from backend", error));
+    if (
+      window.confirm(
+        "Are you sure you want to delete the reports history?" +
+        " You will not be able to revert this change."
+      )
+    ) {
+      fetch(`/api/reports/delete-last-reports-records/`)
+        .then(response => response.json())
+        .then(data => this.setState({ lastReports: [] }))
+        .catch(error => console.log("error fetching data from backend", error));
+      window.alert("The Report History has been deleted");
+    } else {
+      //do nothing
+    }
+    
   }
 
   deleteCameras() {
-    fetch(`/api/reports/delete-cameras/`)
-      .then(response => response.json())
-      .then(data => this.setState({ cameras: null,  dbCount: 0}))
-      .catch(error => console.log("error fetching data from backend", error));
+    if (
+      window.confirm(
+        "Are you sure you want to delete the camera database?" +
+        " All of the cameras recorded will be deleted and you " +
+        "will not be able to revert this change."
+      )
+    ) {
+      fetch(`/api/reports/delete-cameras/`)
+        .then(response => response.json())
+        .then(data => this.setState({ cameras: null,  dbCount: 0}))
+        .catch(error => console.log("error fetching data from backend", error));
+      window.alert("The camera record has been deleted from the system");
+    } else {
+      //do nothing
+    }
   }
 
   render() {
