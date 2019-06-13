@@ -9,7 +9,11 @@ export const pdfResults = ips => {
 
   let headers = {
     top: {
-      col_1: { text: "IP", style: "tableHeader", alignment: "center" },
+      col_1: { 
+        text: "IP", 
+        style: "tableHeader", 
+        alignment: "center" 
+      },
       col_2: {
         text: "Serial Number",
         style: "tableHeader",
@@ -20,10 +24,26 @@ export const pdfResults = ips => {
         style: "tableHeader",
         alignment: "center"
       },
-      col_4: { text: "PingStatus", style: "tableHeader", alignment: "center" },
-      col_5: { text: "WPS", style: "tableHeader", alignment: "center" },
-      col_6: { text: "SnapShot", style: "tableHeader", alignment: "center" },
-      col_7: { text: "Error", style: "tableHeader", alignment: "center" }
+      col_4: { 
+        text: "PingStatus", 
+        style: "tableHeader", 
+        alignment: "center" 
+      },
+      col_5: { 
+        text: "WPS", 
+        style: "tableHeader", 
+        alignment: "center" 
+      },
+      col_6: { 
+        text: "SnapShot", 
+        style: "tableHeader", 
+        alignment: "center" 
+      },
+      col_7: { 
+        text: "Error", 
+        style: "tableHeader", 
+        alignment: "center" 
+      }
     }
   };
 
@@ -50,31 +70,31 @@ export const pdfResults = ips => {
       let data = rows[key];
       console.log(data);
       let row = [];
-
+      //col_1
       if(data.host) {
         row.push({ text: data.host.toString(), alignment: "center" });
       } else {
         row.push({text: data.ip.toString(), alignment: "center"});
       }
-
+      //col_2
       if(data.serialNumber) {
         row.push({ text: data.serialNumber.toString(), alignment: "center" });
       } else {
         row.push({ text: "N/A", alignment: "center" });
       }
-
+      //col_3
       if(data.modelNumber) {
         row.push({ text: data.modelNumber.toString(), alignment: "center" });
       } else {
         row.push({ text: "N/A", alignment: "center" });
       }
-
+      //col_4
       if(data.pingStatus) {
         row.push({ text: data.pingStatus.toString(), alignment: "center" });
       } else {
         row.push({ text:"N/A", alignment: "center" });
       }
-
+      //col_5
       if(data.cameraWebPageStatus) {
         if(data.cameraWebPageStatus.toString() === "401" &&
             data.picStatus) {
@@ -85,12 +105,13 @@ export const pdfResults = ips => {
       } else {
         row.push({ text: "N/A", alignment: "center" });
       }
-
+      //col_6
       if (data.picStatus) {
         row.push({ text: "Yes", alignment: "center" });
       } else {
         row.push({ text: "No", alignment: "center" });
       }
+      //col_7
       if (
         data.pingStatus !== "Not Alive" &&
         data.picStatus !== false &&
