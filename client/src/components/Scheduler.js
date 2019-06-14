@@ -99,8 +99,8 @@ class scheduler extends Component {
           let ts = futureTime[0];
 
           this.setState({ start: ts });
-          console.log("Time selected", this.state.start);
-          console.log("current Time", this.state.time);
+          console.log("Time Selected", this.state.start);
+          console.log("Current Time", this.state.time);
           this.startTimer(this);
         } else {
           alert("You've cancelled the schedule change");
@@ -113,13 +113,11 @@ class scheduler extends Component {
     this.timer = setInterval(() => {
       let now = moment();
       console.log(
-        "Current Hour : Scheduled Hour ",
-        this.state.time,
-        this.state.start
+        "Current Hour: " + this.state.time + ", Scheduled Hour: " + this.state.start
       );
       this.setState({ time: now.hour() });
       if (this.state.time === parseInt(this.state.start)) {
-        console.log("its time");
+        console.log("it's time");
         clearInterval(this.timer);
         this.setState({ startTest: true });
         this.startCameraTest();
