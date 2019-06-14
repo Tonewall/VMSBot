@@ -65,12 +65,21 @@ exports.index = function(req, res) {
     console.log("ip is ", cameraListOfErrors[index].host);
     console.log("serial Number: " + cameraListOfErrors[index].serialNumber);
 
+    let wps;
+    //for the cameras that function but receive 401 errors
+    if(cameraListOfErrors[index].cameraWebPageStatus === 401 &&
+       cameraListOfErrors[index].picDetails) {
+         wps = 200;
+       } else  {
+         wps = cameraListOfErrors[index].cameraWebPageStatus;
+       }
+
     new Camera({
       ip: cameraListOfErrors[index].host,
       deviceName: cameraListOfErrors[index].deviceName,
       pingStatus: cameraListOfErrors[index].pingStatus,
       pingStatusDetails: cameraListOfErrors[index].pingStatusDetails,
-      cameraWebPageStatus: cameraListOfErrors[index].cameraWebPageStatus,
+      cameraWebPageStatus: wps,
       cameraWebPageStatusDetails:
         cameraListOfErrors[index].cameraWebPageStatusDetails,
       headNum: cameraListOfErrors[index].headNum,
