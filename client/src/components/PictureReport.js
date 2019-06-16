@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Row, Col, Button } from "react-bootstrap";
+import { Grid, Row, Col } from "react-bootstrap";
 import "./PictureReport.css";
 
 class pictureReport extends Component {
@@ -11,6 +11,7 @@ class pictureReport extends Component {
             }
         }
         catch(e){
+          super(props);
             this.state = {
                 cameras: null
             }
@@ -28,7 +29,7 @@ class pictureReport extends Component {
           const results = this.state.cameras.map(camera => (
             <Grid className="pictureGrid">
               <Row className="pictureInfos"key={camera._id}>
-              <Col xs={6} class="pInfos">
+              <Col xs={6} className="pInfos">
               <div className="deviceNameInfo"><b>Device Name: </b> {camera.deviceName} <br></br></div>
                 <b>IP Address: </b>{camera.ip} <br></br>
                 <b>Captured On: </b>{new Date(camera.date).toLocaleDateString("en-US")}

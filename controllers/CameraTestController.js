@@ -61,7 +61,7 @@ exports.index = function(req, res) {
   async function addRecordToDB(index) {
     const mongoose = require("mongoose");
     const Camera = mongoose.model("cameras");
-    console.log("cameraListOfErrors Object ", cameraListOfErrors);
+    // console.log("cameraListOfErrors Object ", cameraListOfErrors);
     console.log("ip is ", cameraListOfErrors[index].host);
     console.log("serial Number: " + cameraListOfErrors[index].serialNumber);
 
@@ -110,7 +110,7 @@ exports.index = function(req, res) {
     })
     .then(() => {
       console.log("Data Stored In Database... Process Complete.");
-      console.log(cameraListOfErrors);
+      // console.log(cameraListOfErrors);
       Sockets.io.emit("FromApi", cameraListOfErrors);
     })
     .catch(errors => {
