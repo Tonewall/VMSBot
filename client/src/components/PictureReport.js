@@ -27,8 +27,8 @@ class pictureReport extends Component {
           );
         else {
           const results = this.state.cameras.map(camera => (
-            <Grid className="pictureGrid">
-              <Row className="pictureInfos"key={camera._id}>
+            <Grid className="pictureGrid"key={camera._id}>
+              <Row className="pictureInfos">
               <Col xs={6} className="pInfos">
               <div className="deviceNameInfo"><b>Device Name: </b> {camera.deviceName} <br></br></div>
                 <b>IP Address: </b>{camera.ip} <br></br>
@@ -37,7 +37,7 @@ class pictureReport extends Component {
                 
 
               <Col xs={6}>
-                <img src={camera.picDetails} width={300} height={250} alt="Image Not Available" />
+                <img src={camera.picDetails} width={300} height={250} alt="Not Available" />
 
               </Col>
               </Row>
