@@ -13,7 +13,7 @@ const cameraSchema = new Schema({
   modelNumber: String,
   serialNumber: String,
   picStatus: Boolean,
-  picDetails: String,
+  picDetails: [String],
   cameraType: String,
   date: Date
 });

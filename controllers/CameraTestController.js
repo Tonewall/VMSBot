@@ -30,7 +30,7 @@ exports.index = function(req, res) {
           cameraWebPageStatus: "",
           cameraWebPageStatusDetails: "",
           picStatus: false,
-          picDetails: "",
+          picDetails: ['1'],
           headNum: host.headNum,
           modelNumber: host.modelNumber,
           serialNumber: host.serialNumber,
@@ -40,7 +40,9 @@ exports.index = function(req, res) {
 
         await PingCameraModule(host.ip, cameraErrors);
         await getStatusOfCamerasModule(host.ip, host.type, index, cameraErrors);
-        await getCameraImageModule(host.ip, host.type, index, cameraErrors);
+        for(let ind = 0; ind < host.headNum; ind++) {
+          await getCameraImageModule(host.ip, host.type, index, cameraErrors, ind, host.headNum);
+        }
         cameraListOfErrors.push(cameraErrors); //Push all errors into error Array
         await addRecordToDB(index);
         await terminateProcess(index);
@@ -68,7 +70,7 @@ exports.index = function(req, res) {
     let wps;
     //for the cameras that function but receive 401 errors
     if(cameraListOfErrors[index].cameraWebPageStatus === 401 &&
-       cameraListOfErrors[index].picDetails) {
+       cameraListOfErrors[index].picDetails.length > 0) {
          wps = 200;
        } else  {
          wps = cameraListOfErrors[index].cameraWebPageStatus;
@@ -110,7 +112,7 @@ exports.index = function(req, res) {
     })
     .then(() => {
       console.log("Data Stored In Database... Process Complete.");
-      // console.log(cameraListOfErrors);
+      console.log(cameraListOfErrors);
       Sockets.io.emit("FromApi", cameraListOfErrors);
     })
     .catch(errors => {

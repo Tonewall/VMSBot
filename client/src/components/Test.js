@@ -130,7 +130,7 @@ class test extends Component {
     const getResults = this.state.ips.map((result, index) => {
       let color = "green";
       let picture = new Image();
-      if (result.picStatus === true) picture.src = result.picDetails;
+      if (result.picStatus === true) picture.src = result.picDetails[0];
       else picture.src = require("./noimage.jpg");
 
       if (
