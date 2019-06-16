@@ -59,6 +59,10 @@ class scheduler extends Component {
       $(".panel-footer").text("Current Scheduled Time: " + oldTime + " Daily");
       $(".valueHolder").text(oldTime);
     }
+    let futureTime = oldTime.split(":");
+    let ts = futureTime[0];
+    this.setState({ start: ts });
+    this.startTimer();
 
     $("#customDropdown").on("click", function(event) {
       var container = $("#dropContainer");
