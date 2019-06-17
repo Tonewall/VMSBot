@@ -68,12 +68,15 @@ exports.index = function(req, res) {
     console.log("serial Number: " + cameraListOfErrors[index].serialNumber);
 
     let wps;
+    let status;
     //for the cameras that function but receive 401 errors
     if(cameraListOfErrors[index].cameraWebPageStatus === 401 &&
        cameraListOfErrors[index].picDetails.length > 0) {
-         wps = 200;
+        wps = 200;
+        status = true;
        } else  {
-         wps = cameraListOfErrors[index].cameraWebPageStatus;
+        wps = cameraListOfErrors[index].cameraWebPageStatus;
+        status = false;
        }
 
     new Camera({
@@ -87,7 +90,7 @@ exports.index = function(req, res) {
       headNum: cameraListOfErrors[index].headNum,
       modelNumber: cameraListOfErrors[index].modelNumber,
       serialNumber: cameraListOfErrors[index].serialNumber,
-      picStatus: cameraListOfErrors[index].picStatus,
+      picStatus: status,
       picDetails: cameraListOfErrors[index].picDetails,
       cameraType: cameraListOfErrors[index].cameraType,
       date: new Date()
