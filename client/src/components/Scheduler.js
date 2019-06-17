@@ -105,7 +105,7 @@ class scheduler extends Component {
           this.setState({ start: ts });
           console.log("Time Selected", this.state.start);
           console.log("Current Time", this.state.time);
-          this.startTimer(this);
+          window.location.reload();
         } else {
           alert("You've cancelled the schedule change");
         }
