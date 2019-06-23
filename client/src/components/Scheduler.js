@@ -58,6 +58,8 @@ class scheduler extends Component {
     if (oldTime != null) {
       $(".panel-footer").text("Current Scheduled Time: " + oldTime + " Daily");
       $(".valueHolder").text(oldTime);
+    } else {
+      oldTime = "00:00";
     }
     let futureTime = oldTime.split(":");
     let ts = futureTime[0];
