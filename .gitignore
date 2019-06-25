@@ -1,3 +1,5 @@
 /node_modules
-/cameras.json
+cameras.json
 .idea/
+cameraErrorList.json
+camera_list_final.json
