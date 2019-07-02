@@ -76,6 +76,9 @@ exports.index = function(req, res) {
         wps = cameraListOfErrors[index].cameraWebPageStatus;
         status = false;
        }
+    if(cameraListOfErrors[index].picDetails.length > 0) {
+      status = true;
+    }
    //console.log("pic details length are ", cameraListOfErrors.picDetails.length);
     new Camera({
       ip: cameraListOfErrors[index].host,
