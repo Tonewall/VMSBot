@@ -41,7 +41,7 @@ exports.index = function(req, res) {
         cameraErrors.host = host.ip;
 
         await PingCameraModule(host.ip, cameraErrors);
-        await getStatusOfCamerasModule(host.ip, host.type, index, cameraErrors);
+        await getStatusOfCamerasModule(host.ip, host.type, index, cameraErrors, host.userName, host.password);
         await getCameraImageModule(host.ip, host.type, index, cameraErrors, host.headNum, host.userName, host.password);
         cameraListOfErrors.push(cameraErrors); //Push all errors into error Array
         await addRecordToDB(index);
