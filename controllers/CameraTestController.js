@@ -32,6 +32,8 @@ exports.index = function(req, res) {
           picStatus: false,
           picDetails: [],
           headNum: host.headNum,
+          userName: host.userName,
+          password: host.password,
           modelNumber: host.modelNumber,
           serialNumber: host.serialNumber,
           cameraType: host.type
@@ -40,7 +42,7 @@ exports.index = function(req, res) {
 
         await PingCameraModule(host.ip, cameraErrors);
         await getStatusOfCamerasModule(host.ip, host.type, index, cameraErrors);
-        await getCameraImageModule(host.ip, host.type, index, cameraErrors, host.headNum);
+        await getCameraImageModule(host.ip, host.type, index, cameraErrors, host.headNum, host.userName, host.password);
         cameraListOfErrors.push(cameraErrors); //Push all errors into error Array
         await addRecordToDB(index);
         await terminateProcess(index);
