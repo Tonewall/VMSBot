@@ -16,33 +16,30 @@ Do an `npm install` command in both the root directory (../VMSBot) and inside th
 For security reasons, the camera list is not included in the repository.
 If you want to run the application with a list of cameras, create a "cameras.json" file in the root directory and create an object for each cameras with these fields:
 
-    "deviceName": [NICKNAME FOR THE CAMERA],\
-    "ip": [IP ADDRESS],\
-    "serialNumber": [SERIAL NUMBER],\
-    "macAddress": [MACADDRESS],\
-    "modelNumber": [MODELNUMBER],\
-    "userName": [USERNAME WHEN LOGGING IN],\
-    "password": [PASSWORD WHEN LOGGING IN],\
-    "headNum": [NUMBER OF HEADS THE CAMERA HAS],\
-    "type": [TYPE OF CAMERA]\
+    "deviceName": [NICKNAME FOR THE CAMERA],
+    "ip": [IP ADDRESS],
+    "serialNumber": [SERIAL NUMBER],
+    "macAddress": [MACADDRESS],
+    "modelNumber": [MODELNUMBER],
+    "userName": [USERNAME WHEN LOGGING IN],
+    "password": [PASSWORD WHEN LOGGING IN],
+    "headNum": [NUMBER OF HEADS THE CAMERA HAS],
+    "type": [TYPE OF CAMERA]
   
 For the type of camera, the application currently supports Avigilon ("A"), Pelco ("P"), and Panasonic Cameras ("PA"). If you want to test different brand cameras, edit the getCameraImage.js file to fit your need.
 
 
-(Example of cameras.json file):\
-[\
-    {\
-        "deviceName": "Avigilon Camera #1",\
-        "ip": "172.23.4.24",\
-        "serialNumber": "111704222197",\
-        "macAddress": "00:04:7D:03:95:05",\
-        "modelNumber": "9W-H3-3MH-DP1-B",\
-        "userName": "username",\
-        "password": "password",\
-        "headNum": 3,\
-        "type": "A"\
-    }\
-]
+(Example of a camera in cameras.json file):
+
+    "deviceName": "Avigilon Camera #1",
+    "ip": "172.23.4.24",
+    "serialNumber": "111704222197",
+    "macAddress": "00:04:7D:03:95:05",
+    "modelNumber": "9W-H3-3MH-DP1-B",
+    "userName": "username",
+    "password": "password",
+    "headNum": 3,
+    "type": "A"
 
 ## To Run The Application
 Perform the following:
