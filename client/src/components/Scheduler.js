@@ -49,6 +49,7 @@ class scheduler extends Component {
         console.log(this.state.ips);
       })
       .catch(error => console.log("error fetching data from backend", error));
+    this.startTimer();
   }
 
   componentDidMount() {
